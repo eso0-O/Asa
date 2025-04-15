@@ -67,7 +67,7 @@
       try {
         const response = await fetch('https://script.google.com/macros/s/AKfycbzr-0Z3vPAV14i3ICdt9ceHOZtO0-ilfWASiF5PN2n2BlKWFUCbQoK0-le8-yc3EYJJ/exec', {
           method: 'POST',
-          body: formData,
+          body: new FormData(form),
         });
 
         const result = await response.json();
