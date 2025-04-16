@@ -1,9 +1,8 @@
-body {
+.confirmation-body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image8: linear-gradient(to right, #0acffe 0%, #495aff 100%);
-    background-color: #e2e8f0;
+    background: #e2e8f0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +61,7 @@ body {
 
 /*--Index style---*/
 
-body {
+.index-body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(to right, #0acffe 0%, #495aff 100%);
     margin: 0;
